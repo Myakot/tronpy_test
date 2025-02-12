@@ -10,7 +10,7 @@ TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engin
 
 def test_create_log():
     db = TestingSessionLocal()
-    log = RequestLog(address="TPs5PyUj7RZ7E5h8gPt8PcqQq2e2c9v7p7")
+    log = RequestLog(address="TMY19SeunpGTRoxB1yCF1EBeZjcGNy3333")
     db.add(log)
     db.commit()
     db.refresh(log)
