@@ -53,3 +53,4 @@ docs/_build/
 *.pyc
 
 # Ignore sql DB
+test.db
